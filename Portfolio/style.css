@@ -1,0 +1,134 @@
+*{ margin: 0;
+    padding: 0;  
+   }
+
+   .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .nav nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-right: 20px;
+    font-weight: 600;
+    transition: color 5s;
+    color: aqua;
+   }
+
+   .nav nav a:hover{
+    color: purple;
+    transition: scale(1.5);
+   }
+
+   .nav img{
+    width: 70px;
+    border-radius: 50%;
+
+   }
+
+  ul{
+    margin-top:-4%;
+  }
+
+  ul li{
+    list-style:none;
+    display:inline-block;
+    padding: 10px 16px;
+  }
+
+  ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(30, 254, 254);
+    margin-top: -3%;
+    transition: -4s ease;
+  }
+
+  ul li a:hover{
+    color:plum;
+  }
+
+  .info{
+    margin: left 7%;
+    margin-top: 6%;
+  }
+   
+  .info h1{
+    font-size:65px;
+    color:black;
+  }
+
+  .info h3{
+    font-size: 18px;
+    letter-spacing:3px;
+    line-height:24px;
+    color: white;
+
+  }
+
+  .info span{
+    color:rgba(2, 23, 23, 0.34);
+  }
+
+  .info a{
+   text-decoration: none;
+   color: white;
+   background:black;
+   margin:26px 0;
+   padding:10px 18px;
+   border-radius: 10px;
+   display: inline-block;
+   transition: 4s ease;
+  }
+
+  .info a :hover{
+    background-color: plum;
+
+  }
+
+
+  body{
+    background-image: url(ketura6.jpg);
+    background-size: 150%;
+  }
+
+  .about{
+   text-align: center;
+   text-decoration: none;
+   margin-top: 500px;
+   color: rgb(0, 255, 234);
+   
+  }
+
+  .contact{
+    margin-bottom: 100px;
+    justify-content: space-between;
+    text-align: left;
+    text-decoration: none;
+    border-style: ridge;
+    color: rgb(0, 255, 247);
+    
+  }
+
+  .card {
+    justify-self:flex-end;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+   
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+  }
+
+  
+  .container {
+    padding: 2px 16px;
+  }
